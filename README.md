@@ -5,5 +5,5 @@
 
 ## Used:
 - HTML
-- CSS
+- SASS
 - jQuery
