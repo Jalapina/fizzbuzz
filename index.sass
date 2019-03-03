@@ -1,26 +1,28 @@
 html,body
     height: 100%
     width: 100%
-
+    overflow: hidden
 *
     padding: 0px
     margin: 0px
 
 header
-    background-color: salmon
-    height: 15%
+    background-color: #011a27
+    height: 10%
     text-align: center
     position: relative
 
 h1
     font-family: 'Frijole', cursive
-    padding: 30px
+    padding: 20px
     display: inline-block
+    color: #fff
     animation: buzz 2s infinite
+    cursor: pointer
 
 .container
-    height: 85%
-    background-color: rgb(102, 87, 87)
+    height: 90%
+    background-color: #063852
     text-align: center
 
 .fizzbuzz
@@ -28,38 +30,35 @@ h1
     left: 0px
     right: 0px
     height: 95px
-    background-color: darkslategrey
-    margin: 10%
+    background-color: #f0810f
+    margin: 200px auto
     font-size: 75px
     padding: 20px
+    width: 300px
+    border-radius: 70px
+    box-shadow: 5px 10px #a5a5a5
 
-.rotate-animation
-    animation: rotate 6000ms
-    -webkit-animation: rotate 6000ms
-@keyframes rotate
-    0%
-        transform: rotate(0deg)
-        opacity: 1
-    100%
-        transform: rotate(360deg)
-        opacity: 0
-        
 @keyframes buzz
     0%
         margin-left: 3px
     50%
-        margin-left: 2
+        margin-left: 1px
     55%
         margin-left: 0px
     60%
-        margin-right: 2px
+        margin-right: 4px
     75%
         margin-right: 0px
     100%
-        margin-left: 2px
+        margin-left: 6px
+
 .fizz-background
     background-color: tomato
 .buzz-background
-    background-color: blue
+    background-color: #f19712
 .fizzbuzz-background
-    background-color: yellow
+    background-color: #e6df44
+.hint
+    font-size: 10px
+    position: absolute
+    color: #fdee69
