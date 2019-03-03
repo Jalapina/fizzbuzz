@@ -6,4 +6,4 @@
 ## Used:
 - HTML
 - CSS
-_ jQuery
+- jQuery
